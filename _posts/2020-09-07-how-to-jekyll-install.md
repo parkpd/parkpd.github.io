@@ -6,7 +6,7 @@ categories: jekyll install
 ---
 Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 정리한다.  
 # Ruby 설치
-https://rubyinstaller.org/downloads/ 에서 Ruby+Devkit 2.7.1-1 (x64) 설치.  
+<https://rubyinstaller.org/downloads> 에서 Ruby+Devkit 2.7.1-1 (x64) 설치.  
 > Ruby Installer2 for Windows 에서는 3 - MSYS2 and MINGW development toolchain 을 선택했다.  
 > gem 설치가 꼬이면 Ruby 를 uninstall 해서 gem 를 리셋한 뒤에 다시 Ruby Installer2 를 설치한다.  
 
