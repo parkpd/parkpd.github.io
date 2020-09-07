@@ -20,8 +20,7 @@
 
 title: Code, Game, Music, Life
 email: parkpd1@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-블로그 만들기 참 어렵다.
+description: "블로그 만들기 참 어렵다."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://parkpd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rigmania
