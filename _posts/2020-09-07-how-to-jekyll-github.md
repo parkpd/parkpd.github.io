@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll + GitHub 설치. GitHub 부터 준비"
+title: "Jekyll + GitHub 블로깅. 1. GitHub 부터 준비"
 date: 2020-09-07 17:52:18 +0900
 categories: jekyll install
 ---
