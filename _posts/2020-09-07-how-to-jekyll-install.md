@@ -28,4 +28,4 @@ $ bundle update
 $ bundle exec jekyll build  
 $ bundle exec jekyll serve --watch  
 
-웹브라우저로 http://localhost:4000/ 에 접속해 블로그가 잘 보이는지 확인한다. --watch 옵션을 주면 변경사항이 실시간으로 반영된다.
+웹브라우저로 http://localhost:4000/ 에 접속해 블로그가 잘 보이는지 확인한다. --watch 옵션으로 실행했기 때문에 변경사항이 실시간으로 반영된다.
