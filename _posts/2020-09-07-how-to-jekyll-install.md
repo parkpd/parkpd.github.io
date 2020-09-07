@@ -24,7 +24,7 @@ $ jekyll -v 했을 때 오류가 발생한다면
 $ jekyll new . --force (이미 폴더가 있기 때문에 --force 옵션이 필요하다)  
 > repo-name 폴더에 _config.yml, Gemfile 파일, _posts 폴더 같은 게 생성되는지 확인한다.
 
-새로 생성된 Gemfile 을 열어서 \# gem "jekyll", "~> 3.9.0" 으로 주석 처리하고, gem "github-pages", group: :jekyll_plugins 으로 주석 제거한 뒤 저장한다.  
+새로 생성된 [Gemfile](https://bundler.io/v2.1/gemfile.html) 을 열어서 \# gem "jekyll", "~> 3.9.0" 으로 주석 처리하고, gem "github-pages", group: :jekyll_plugins 으로 주석 제거한 뒤 저장한다.  
 $ gem install github-pages  
 $ bundle update  
 이 때부터 $ jekyll -v 발생하면 그냥 $ bundle exec 를 앞에 붙여서 $ bundle exec jekyll -v 으로 실행한다.  
