@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Jekyll + GitHub 블로깅. 1. GitHub 부터 준비"
-date: 2020-09-07 17:52:18 +0900
+date: 2020-09-07 01:00:00
 categories: jekyll install
 ---
 Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 정리한다.  

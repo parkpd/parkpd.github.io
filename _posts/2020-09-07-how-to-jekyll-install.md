@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Jekyll + GitHub 블로깅. 2. Jekyll 설치"
-date: 2020-09-07 17:52:18 +0900
+date: 2020-09-07 02:00:00
 categories: jekyll install
 ---
 Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 정리한다.  
@@ -10,9 +9,10 @@ Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 
 > Ruby Installer2 for Windows 에서는 3 - MSYS2 and MINGW development toolchain 을 선택했다.  
 > gem 설치가 꼬이면 Ruby 를 uninstall 해서 gem 를 리셋한 뒤에 다시 Ruby Installer2 를 설치한다.  
 
-# jekyll 설치
+# [jekyll](https://jekyllrb.com) 설치
 Git Bash 에서 parkpd.github.io 폴더로 이동  
-$ gem install bundler : bundler (2.1.4) 가 설치된다.(gem list 해보면 이미 bundler (2.1.4) 가 설치되어 있겠지만...)  
+gem list 해보면 이미 bundler (default: 2.1.4) 가 설치되어 있다.  
+$ gem install bundler 하면 gem list 했을 때 bundler (default: 2.1.4) 가 아닌 bundler (2.1.4) 으로 표시된다. 괜찮나?  
 [GitHub Pages - Dependency versions](https://pages.github.com/versions) 를 보면 jekyll 3.9.0 으로 되어 있다.  
 $ gem install jekyll -v 3.9.0
 > $ gem install jekyll : 버전 지정하지 않으면 jekyll (4.1.1) 이 설치되는데 내가 해 봤을 때는 dependency 오류가 발생했다. gem 에 익숙하다면 해결할 수 있겠지만...  
