@@ -9,7 +9,7 @@ Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 
 > Ruby Installer2 for Windows 에서는 3 - MSYS2 and MINGW development toolchain 을 선택했다.  
 > gem 설치가 꼬이면 Ruby 를 uninstall 해서 gem 를 리셋한 뒤에 다시 Ruby Installer2 를 설치한다.  
 
-# [jekyll](https://jekyllrb.com) 설치
+# [jekyll](https://jekyllrb.com) 설치 및 로컬에서 실행
 Git Bash 에서 parkpd.github.io 폴더로 이동  
 gem list 해보면 이미 bundler (default: 2.1.4) 가 설치되어 있다.  
 $ gem install bundler 하면 gem list 했을 때 bundler (default: 2.1.4) 가 아닌 bundler (2.1.4) 으로 표시된다. 괜찮나?  
