@@ -1,5 +1,5 @@
 ---
-title: "Jekyll + GitHub 블로깅. 2. Jekyll 설치"
+title: "Jekyll + GitHub 블로깅. 2. Jekyll 설치 및 실행"
 date: 2020-09-07 02:00:00
 categories: jekyll install
 ---
