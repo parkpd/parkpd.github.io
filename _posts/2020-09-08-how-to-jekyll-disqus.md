@@ -15,11 +15,11 @@ disqus:
 &nbsp;&nbsp;shortname: parkpd-github-io  
 minima-2.5.1 에서 복사해 온 _includes\disqus_comments.html 파일을 열어 https://parkpd-github-io.disqus.com/admin/install/platforms/universalcode 에서 제공하는 코드를 덮어쓰거나 s.src = 'https://parkpd-github-io.disqus.com/embed.js'; 부분에서 unique disqus name 을 자신의 disqus unique 이름으로 변경하고 {&nbsp;%- if page.comments != false and jekyll.environment == "production" -%&nbsp;} 와 {&nbsp;%- endif -%&nbsp;} 을 제거한다.  
 _layouts\post.html 에
-
-    {%- if site.disqus.shortname -%}
-      {%- include disqus_comments.html -%}
-    {%- endif -%}
-
+{% highlight Ruby %}
+    {&nbsp;%- if site.disqus.shortname -%&nbsp;}
+      {&nbsp;%- include disqus_comments.html -%&nbsp;}
+    {&nbsp;%- endif -%&nbsp;}
+{% endhighlight %}
 가 들어있는지 확인한다.
 
 # disque 를 사용하겠다고 셋팅하기

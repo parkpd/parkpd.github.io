@@ -23,18 +23,35 @@ email: parkpd1@gmail.com
 description: "이런 저런 이야기"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://parkpd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name: 하얀백곰
+  twitter: rigmania
 twitter_username: rigmania
 github_username:  parkpd
+
+search: true
+search_full_content: true
 
 disqus:
     shortname: parkpd-github-io
 
 # Build settings
 markdown: kramdown
-theme: minima
+highlighter: rouge
+# theme: minima
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
 
 # Defaults
 defaults:
@@ -61,6 +78,30 @@ defaults:
       comments: true
       share: true
       related: false
+
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
 
 # Exclude from processing.
 # The following items will not be processed, by default.
