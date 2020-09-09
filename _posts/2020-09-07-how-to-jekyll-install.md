@@ -1,7 +1,8 @@
 ---
 title: "Jekyll + GitHub 블로깅. 2. Jekyll 설치 및 실행"
 date: 2020-09-07 02:00:00
-categories: jekyll install
+categories: JekyllInstall
+tags: [jekyll, Ruby]
 ---
 Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 정리한다.  
 # Ruby 설치

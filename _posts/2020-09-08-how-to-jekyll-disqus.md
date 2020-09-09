@@ -1,7 +1,8 @@
 ---
 title: "Jekyll + GitHub 블로깅. 3. Disqus 설치 in minima skin"
 date: 2020-09-08 01:52:18
-categories: jekyll install
+categories: JekyllInstall
+tags: [jekyll, minima, disqus]
 ---
 # minima 스킨을 jekyll 로컬에서 확인
 <https://github.com/jekyll/minima> 의 [releases](https://github.com/jekyll/minima/releases) 에서 파일을 다운로드 받는다. _includes, _layouts, _sass, assets, script 등 내 폴더에 없는 모든 파일을 복사한다. _config.yml 파일도 비교해서 없는 건 추가한다. 이렇게 하면 minima 를 gem 기반으로 사용해도 로컬에 있는 파일로 override 할 수 있다.  
