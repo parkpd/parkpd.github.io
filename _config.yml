@@ -24,12 +24,13 @@ description: "이런 저런 이야기"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://parkpd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-author:
-  name: 하얀백곰
-  twitter: rigmania
-  picture: /assets/images/MyPic.jpg
+github_username: parkpd
+# tistory_username : minq
 twitter_username: rigmania
-github_username:  parkpd
+#facebook_username:  min9nim
+google_analytics: true
+
+author: "하얀백곰"
 
 # search: true
 # search_full_content: true
@@ -45,20 +46,26 @@ github_username:  parkpd
 #  error_mode: strict
 
 disqus:
-    shortname: parkpd-github-io
+  comments: true
+  shortname: parkpd-github-io
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-# theme: minima
-remote_theme: "mmistakes/jekyll-theme-basically-basic"
+theme: minima
+# theme: jekyll-whiteglass
+asset_url: /assets
 plugins:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 feed:
   path: atom.xml
+
+# port : 4000
+# host : 0.0.0.0
 
 # Analytics
 analytics:
@@ -68,9 +75,19 @@ analytics:
     anonymize_ip: false
 google_analytics: UA-177473308-1
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+permalink: /:year/:month/:title/
+paginate_path: /posts/:num/
+paginate: 5
+
+navigation:
+ - title: About
+   url: /about
+ - title: Category
+   url: /category
+ - title: Tags
+   url: /tags
+ - title: Archives
+   url: /archives
 
 # Defaults
 defaults:
