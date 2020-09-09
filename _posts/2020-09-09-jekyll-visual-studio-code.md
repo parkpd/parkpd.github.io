@@ -1,7 +1,7 @@
 ---
 title: "Jekyll + GitHub 블로깅. 4. Visual Studio Code 로 편집하기"
 date: 2020-09-09 08:40:18
-categories: JekyllInstall
+categories: Jekyll
 tags: [jekyll, Visual Studio Code]
 ---
 [Visual Studio Code](https://code.visualstudio.com) 에 GitHub 로컬 폴더를 끌어다 놓으면 markdown 파일을 편집하고, preview 를 미리 확인할 수 있다.(참고 : [Visual Studio Code 에서 마크다운 사용하기](https://blog.weirdx.io/post/28723))  

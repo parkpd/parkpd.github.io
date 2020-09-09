@@ -1,7 +1,7 @@
 ---
 title: "Jekyll + GitHub 블로깅. 1. GitHub 부터 준비"
 date: 2020-09-07 01:00:00
-categories: JekyllInstall
+categories: Jekyll
 tags: [jekyll, GitHub, Blog, Git]
 ---
 Windows 기준으로 Jekyll + GitHub 블로깅을 하기 위한 준비과정을 정리한다.  

@@ -1,7 +1,7 @@
 ---
 title: "Jekyll + GitHub 블로깅. 3. Disqus 설치 in minima skin"
 date: 2020-09-08 01:52:18
-categories: JekyllInstall
+categories: Jekyll
 tags: [jekyll, minima, disqus]
 ---
 # minima 스킨을 jekyll 로컬에서 확인
