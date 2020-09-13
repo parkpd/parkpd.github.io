@@ -7,9 +7,10 @@ tags: [Python, Anki]
 [WordWeb](https://wordweb.info/) 은 검색기록을 %appdata%/WordWeb 에 .txt 형태로 저장한다. 그렇다면 내가 지금까지 찾은 영단어를 [Anki](https://apps.ankiweb.net/) 덱으로 만들 방법이 있지 않을까?  
 - 먼저 영단어를 txt 포멧으로 만든다.
 - lingoes-extractor 나 크롤링을 이용해 단어의 뜻을 구해서 '영단어\t의미' 형태로 csv 파일을 만든다.
-  - [Naver Endic Crawler](https://github.com/hoonhoons/naver_endic_crawler)
-- https://charly-lersteau.com/posts/2019-11-17-create-anki-deck-csv/ 를 이용해 anki 덱 파일을 만든 뒤 import 한다.
-  - 이 코드는 [genanki](https://github.com/kerrickstaley/genanki) 를 활용해 만들었다.
+  - 예: [Naver Endic Crawler](https://github.com/hoonhoons/naver_endic_crawler)
+- <https://charly-lersteau.com/posts/2019-11-17-create-anki-deck-csv>/ 를 이용해 anki 덱 파일을 만든 뒤 import 한다.
+  - 이 코드는 [genanki](https://github.com/kerrickstaley/genanki) 를 활용해 만들었다.  
+
 {% highlight python %}
 #!/usr/bin/env python3
 
