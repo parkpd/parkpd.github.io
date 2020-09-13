@@ -51,7 +51,7 @@ disqus:
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+# highlighter: rouge
 theme: minima
 # theme: jekyll-whiteglass
 asset_url: /assets
