@@ -1,6 +1,6 @@
 ---
 title: 파이썬으로 Anki Deck 생성하기
-date: 2020-09-13 08:40:18
+date: 2020-09-13 08:40:18+0900
 categories: Python
 tags: [Python, Anki]
 ---

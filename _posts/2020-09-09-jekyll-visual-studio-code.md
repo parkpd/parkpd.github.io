@@ -1,6 +1,6 @@
 ---
 title: "Jekyll + GitHub 블로깅. 4. Visual Studio Code 로 편집하기"
-date: 2020-09-09 08:40:18
+date: 2020-09-09 08:40:18+0900
 categories: Jekyll
 tags: [jekyll, Visual Studio Code]
 ---

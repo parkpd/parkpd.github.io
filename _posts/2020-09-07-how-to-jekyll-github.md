@@ -1,6 +1,6 @@
 ---
 title: "Jekyll + GitHub 블로깅. 1. GitHub 부터 준비"
-date: 2020-09-07 01:00:00
+date: 2020-09-07 01:00:00+0900
 categories: Jekyll
 tags: [jekyll, GitHub, Blog, Git]
 ---
