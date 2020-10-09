@@ -4,13 +4,13 @@ date: 2020-10-08 13:00:00+0900
 categories: Python
 tags: [Python, Mac, Network, Nic]
 ---
-https://pypi.org/project/get-mac/
+<https://pypi.org/project/get-mac/>
 {% highlight python %}
 import getmac
 print(getmac.get_mac_address())
 {% endhighlight %}
 
-https://pypi.org/project/netifaces/
+<https://pypi.org/project/netifaces/>
 {% highlight python %}
 import netifaces
 for nic in netifaces.interfaces():
