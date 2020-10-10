@@ -1,5 +1,5 @@
 ---
-title: Area88 OST - Force Breaking Through Cover
+title: 김현식 님이 부른 '골목길' 을 커버해 보았습니다.
 date: 2020-10-09 16:45:00+0900
 categories: Music
 tags: [Cubase, Cover, 김현식, 골목길, 신촌블루스]
