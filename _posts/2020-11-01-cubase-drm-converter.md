@@ -74,6 +74,8 @@ def save_drm_as_txt_file(file_path_without_ext, item_list, using_middle_c_c4):
 			inote_value_str = item.find("int", {"name": "INote"})["value"]
 			inote_value = int(inote_value_str)
 			str = "|| " + convert_num_to_note(inote_value, using_middle_c_c4) + " || " + note_name + " ||"
+			if using_middle_c_c4:
+				str += " " + inote_value_str + " ||"
 			print(str)
 			txt_file.writelines(str + "\n")
 
@@ -84,8 +86,8 @@ def convert_drm_to_txt(file_path):
 		item_map = soup.find("list", {"name": "Map"})
 		item_list = item_map.find_all("item")
 
-		save_drm_as_txt_file(file_path_without_ext + "_roland_middle_c4", item_list, True)
 		save_drm_as_txt_file(file_path_without_ext, item_list, False)
+		save_drm_as_txt_file(file_path_without_ext + "_roland_middle_c4", item_list, True)
 
 def convert_txt_to_drm(file_path, using_middle_c_c4):
 	file_path_without_ext, _ = os.path.splitext(file_path)
@@ -159,10 +161,10 @@ def main(file_path):
 		convert_txt_to_drm(file_path, False)
 
 if __name__ == '__main__':
-	main(sys.argv[1])
+	# main(sys.argv[1])
     # main("NI SD Garage Full 2.txt")
     # main("NI SD Garage Full 2.drm")
-	# main("C:\\Music\\CubaseDrumMap\\Studio Drummer\\NI SD Garage Full 2.drm")
+	main("C:\\Music\\CubaseDrumMap\\Studio Drummer\\NI SD Garage Full 2.drm")
 	# main("C:\\Music\\CubaseDrumMap\\Studio Drummer\\NI SD Garage Full 2.txt")
 {% endhighlight %}
 
