@@ -161,10 +161,10 @@ def main(file_path):
 		convert_txt_to_drm(file_path, False)
 
 if __name__ == '__main__':
-	# main(sys.argv[1])
+	main(sys.argv[1])
     # main("NI SD Garage Full 2.txt")
     # main("NI SD Garage Full 2.drm")
-	main("C:\\Music\\CubaseDrumMap\\Studio Drummer\\NI SD Garage Full 2.drm")
+	# main("C:\\Music\\CubaseDrumMap\\Studio Drummer\\NI SD Garage Full 2.drm")
 	# main("C:\\Music\\CubaseDrumMap\\Studio Drummer\\NI SD Garage Full 2.txt")
 {% endhighlight %}
 
